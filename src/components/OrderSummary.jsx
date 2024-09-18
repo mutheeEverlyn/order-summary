@@ -1,5 +1,5 @@
 import './OrderSummary.css'
-
+import iconMusic from './src/assets/icon-music.svg" alt="icon-music'
 const OrderSummary = () => {
   return (
     <div className='container'>
@@ -12,7 +12,7 @@ const OrderSummary = () => {
         <p>You can now listen to millions of songs,audiobooks and podcast on any device anywhere you like</p>
       </div>
       <div className='annual-plan'>
-       <img src="./src/assets/icon-music.svg" alt="icon-music" />
+       <img src={iconMusic} />
        <div className="annual-text">
         <h2>Annual Plan</h2>
         <p>$59.99/year</p>
@@ -23,7 +23,7 @@ const OrderSummary = () => {
       <button>Proceed to Payment</button>
       </div>
       <div className='btn2'>
-      <button ><a href="#">Cancel Order</a></button>
+      <button ><a href="#"></a></button>
       </div>
     </div>
     </div>
