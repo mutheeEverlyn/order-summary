@@ -1,10 +1,11 @@
 import './OrderSummary.css'
 import iconMusic from './src/assets/icon-music.svg" alt="icon-music'
+import hero from './src/assets/illustration-hero.svg'
 const OrderSummary = () => {
   return (
     <div className='container'>
     <div className='image-header'>
-     <img src='./src/assets/illustration-hero.svg' alt='music image'/>
+     <img src={hero} alt='music image'/>
     </div>
     <div className='content'>
      <div className='order-summary'>
