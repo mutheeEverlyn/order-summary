@@ -1,5 +1,5 @@
 import './OrderSummary.css'
-import iconMusic from './src/assets/icon-music.svg" alt="icon-music'
+import iconMusic from './src/assets/icon-music.svg'
 import hero from './src/assets/illustration-hero.svg'
 const OrderSummary = () => {
   return (
